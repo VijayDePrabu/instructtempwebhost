@@ -11,4 +11,7 @@ header('Location: https://play.google.com/store/apps/details?id=com.avartaka.ins
 //OR
 echo "<script>window.location='https://play.google.com/store/apps/details?id=com.avartaka.instructs'</script>";
 }
+header('Location: https://play.google.com/store/apps/details?id=com.avartaka.instructs');
+//OR
+echo "<script>window.location='https://play.google.com/store/apps/details?id=com.avartaka.instructs'</script>";
 ?>
