@@ -1,3 +1,3 @@
 <script type="text/javascript">
-    window.location.href = "http://www.yourdomain.com/somepage.html";
+    window.location.href = "https://play.google.com/store/apps/details?id=com.avartaka.instructs";
 </script>
