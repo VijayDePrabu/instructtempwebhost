@@ -9,6 +9,6 @@ if ($iphone || $android || $palmpre || $ipod || $berry == true)
 { 
 header('Location: http://mobile.site.com/');
 //OR
-echo "<script>window.location='http://mobile.site.com'</script>";
+echo "<script>window.location='https://play.google.com/store/apps/details?id=com.avartaka.instructs'</script>";
 }
 ?>
