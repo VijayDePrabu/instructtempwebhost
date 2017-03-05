@@ -7,15 +7,20 @@
 	
 
 <script type="text/javascript">
-	function gup( name) {
-    var url = location.href;
-    name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
-    var regexS = "[\\?&]"+name+"=([^&#]*)";
-    var regex = new RegExp( regexS );
-    var results = regex.exec( url );
-    return results == null ? null : results[1];
+function GetURLParameter(sParam)
+{
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++) 
+    {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam) 
+        {
+            return sParameterName[1];
+        }
+    }
 }
-            var referrer= gup('id');
+            var referrer= GetURLParameter('id');
 
            window.location = "https://play.google.com/store/apps/details?id=com.avartaka.instructs&referrer="+referrer;
 	
