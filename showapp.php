@@ -7,7 +7,7 @@ $ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
 
 if ($iphone || $android || $palmpre || $ipod || $berry == true) 
 { 
-header('Location: http://mobile.site.com/');
+header('Location: https://play.google.com/store/apps/details?id=com.avartaka.instructs');
 //OR
 echo "<script>window.location='https://play.google.com/store/apps/details?id=com.avartaka.instructs'</script>";
 }
